@@ -1,0 +1,9 @@
+<ul *ngFor="let cartItem of cartItems">
+    <h3>Cart Item</h3>
+    <li>ID: {{cartItem.id}}</li>
+    <li>Product: {{cartItem.product}}</li>
+    <li>Price: ${{cartItem.price}}</li>
+    <li>Quantity: {{cartItem.quantity}}</li>
+</ul>
+
+<router-outlet></router-outlet>
